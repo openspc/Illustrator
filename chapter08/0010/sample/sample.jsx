@@ -1,0 +1,1 @@
+﻿// 選択されたテキストフレームの最初の文字のスタイルを求めるvar sList = activeDocument.selection[0].characters[0].characterStyles;var sName = sList[0].name;alert("最初の文字のスタイル名："+sName);

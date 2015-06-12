@@ -1,0 +1,1 @@
+﻿// 選択された図形をマトリクスを使って回転させるvar tMatrix = app.getTranslationMatrix(0, 0);var selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    var mtx = concatenateRotationMatrix(tMatrix, 30);	// 30度回転    selObj[i].transform(mtx);}

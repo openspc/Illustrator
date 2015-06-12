@@ -1,0 +1,1 @@
+﻿// 選択した画像をラスタライズするvar selObj = activeDocument.selection;var opt = new RasterizeOptions();opt.resolution = 72;    // ラスタライズ解像度for(var i=0; i<selObj.length; i++){    activeDocument.rasterize(selObj[i], [0, 0, 200, -120], opt);  // ラスタライズ}

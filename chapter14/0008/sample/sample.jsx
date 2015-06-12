@@ -1,0 +1,1 @@
+﻿// サブレイヤーを作成する（レイヤー内にレイヤーを作成する）var layObj = activeDocument.layers.add();layObj.name = "親レイヤー";var subLayObj = layObj.layers.add();subLayObj.name = "新しいサブレイヤーです";var subLayObj2 = subLayObj.layers.add();subLayObj2.name = "さらに入れ子のサブレイヤーです";

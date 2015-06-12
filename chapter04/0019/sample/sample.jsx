@@ -1,0 +1,1 @@
+﻿// スウォッチカラーグループを追加するvar swGroup = activeDocument.swatchGroups.add();swGroup.name = "JSグループ";

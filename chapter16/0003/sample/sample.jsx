@@ -1,0 +1,1 @@
+﻿// 選択されたテキストフレームの３行目を選択し３行目が存在しない場合は最終行を選択する。var txtObj = activeDocument.selection[0];if (txtObj.lines.length > 0) {    var lineCount = 2;  // 3行目。最初の行は0になるため。    if (txtObj.lines.length < lineCount+1) {    // 該当行が存在しない場合        lineCount =  txtObj.lines.length - 1;   // 最終行を指定    }    txtObj.lines[lineCount].select(); // 行を選択する}

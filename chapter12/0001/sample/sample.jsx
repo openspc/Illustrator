@@ -1,0 +1,1 @@
+﻿// リンク画像と埋め込み画像の数を表示するvar linkNum = activeDocument.placedItems.length;var embedNum = activeDocument.rasterItems.length;alert("リンク画像数："+linkNum+"\r埋め込み画像数："+embedNum);

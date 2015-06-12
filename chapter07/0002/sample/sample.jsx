@@ -1,0 +1,1 @@
+﻿// addBeforeを使って段落を作成するvar txtObj = activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;var prObj1 = txtObj.paragraphs.add("最初の段落です");var prObj2 = txtObj.paragraphs.addBefore("2番目の段落です");

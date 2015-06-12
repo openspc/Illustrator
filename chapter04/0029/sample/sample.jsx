@@ -1,0 +1,1 @@
+﻿// 指定した名前のグラデーションカラーを削除するtry{    activeDocument.gradients["色あせた空"].remove();}catch(e){    alert("該当する名前のグラデーションカラーはありません");}

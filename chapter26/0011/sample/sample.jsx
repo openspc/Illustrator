@@ -1,0 +1,1 @@
+﻿// ファイルサイズを表示するvar fileObj = File.openDialog("ファイルを選択してください", "*", false);if (fileObj) {    var Bytes = fileObj.length; // バイトサイズ    var KB = Math.floor(Bytes / 1024);  // KBサイズを計算    var MB = (KB / 1024).toPrecision(2);   // MBサイズを計算    var GB = (MB / 1024).toPrecision(2);   // GBサイズを計算    alert("ファイルサイズ："+Bytes+"バイト\r"+KB+"KB\r"+MB+"\r"+GB+"GB");}

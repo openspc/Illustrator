@@ -1,0 +1,1 @@
+﻿// ドキュメント内にあるグラフのオフセットを指定するvar gObj = activeDocument.graphItems;for(var i=0; i<gObj.length; i++){    gObj[i].wrapped = true; // グラフをラップする    gObj[i].wrapInside = false; // 外側にラップする    gObj[i].wrapOffset = 20;    // グラフの余白}

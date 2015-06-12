@@ -1,0 +1,1 @@
+﻿// 選択された画像を回転させるvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    var tp = selObj[i].typename;    if ((tp == "RasterItem")|| (tp == "PlacedItem")){        selObj[i].rotate(45, true,true,true,true,Transformation.BOTTOMRIGHT);    }}

@@ -1,0 +1,1 @@
+﻿// 全てのアートボードにセンターマークやセーフゾーンを表示するvar docObj = app.activeDocument;for(var i=0; i<docObj.artboards.length; i++){    docObj.artboards[i].showCenter = true;  // センターマーク    docObj.artboards[i].showCrossHairs = true;  // 十字線    docObj.artboards[i].showSafeAreas = true;   // セーフゾーン}

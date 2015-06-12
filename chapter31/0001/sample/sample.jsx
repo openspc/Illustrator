@@ -1,0 +1,1 @@
+// マトリクスオブジェクトを作成するvar mtx = new Matrix();var mA = mtx.mValueA;var mB = mtx.mValueB;var mC = mtx.mValueC;var mD = mtx.mValueD;var mTX = mtx.mValueTX;var mTY = mtx.mValueTY;alert("mA,B,C,D:"+mA+","+mB+","+mC+","+mD+"/TX,Y:"+mTX+","+mTY);mtx.mValueTX = 100;mTX = mtx.mValueTX;alert("mA,B,C,D:"+mA+","+mB+","+mC+","+mD+"/TX,Y:"+mTX+","+mTY);

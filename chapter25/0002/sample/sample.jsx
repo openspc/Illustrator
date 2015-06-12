@@ -1,0 +1,1 @@
+﻿// ユーザーのドキュメントフォルダを表示するvar cFolder = Folder.myDocuments;var myDocName = cFolder.fullNamealert("ドキュメントフォルダ："+myDocName);

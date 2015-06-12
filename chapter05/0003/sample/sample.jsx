@@ -1,0 +1,1 @@
+﻿// フォント一覧をテキストフレーム内に表示するvar txt = "";for(var i=0; i<app.textFonts.length; i++){    txt = txt + app.textFonts[i].family + " " + app.textFonts[i].style+"\r";}// テキストフレームを生成しフォント（書体）一覧を表示するvar txtObj = app.activeDocument.textFrames.add();txtObj.contents = txt;txtObj.top = -10;   // 位置を調整txtObj.left = 10;

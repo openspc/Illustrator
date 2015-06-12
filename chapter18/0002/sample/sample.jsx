@@ -1,0 +1,1 @@
+﻿// ドキュメント内にあるグラフを全て削除するactiveDocument.graphItems.removeAll();

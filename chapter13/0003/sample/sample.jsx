@@ -1,0 +1,1 @@
+﻿// 選択されたグループ化を1段階だけ解除するvar selObj = activeDocument.selection;for(var i=selObj[0].pageItems.length-1; i>0; i--){    // 選択された図形のグループ化を解除する    selObj[0].pageItems[i].move(activeDocument, ElementPlacement.PLACEATEND);}

@@ -1,0 +1,1 @@
+﻿// バージョンを表示しCC以降でしか動作しないようにするvar ver = app.version;alert(ver);var verList = ver.split(".");alert("メジャーバージョン："+verList[0] + "\n" +    "マイナーバージョン："+verList[1] + "\n" +    "リビジョン番号："+verList[2]);if (parseInt(verList[0]) >= 17){    alert("バージョンCC以上なので処理を行います");}else{    alert("バージョンCCより前のバージョンでは動作しません");}

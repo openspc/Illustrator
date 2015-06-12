@@ -1,0 +1,1 @@
+// 3番目のアートボードをアクティブにするvar docObj = app.activeDocument;docObj.artboards.setActiveArtboardIndex(2);

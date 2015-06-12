@@ -1,0 +1,1 @@
+﻿// 空きメモリ容量を調べるvar mem = app.freeMemory;if (mem < 0){   // Mac OS X/OS X 64bit対応    mem = (2*1024*1024*1024) + mem;}var kb = parseInt(mem / 1024);var mb = parseInt(kb / 1024);alert("空きメモリ："+mem+" Bytes\r"+kb+" KB\r"+mb+" MB");

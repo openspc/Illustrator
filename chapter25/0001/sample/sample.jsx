@@ -1,0 +1,1 @@
+﻿// 現在のフォルダ（カレントフォルダ）名を表示するvar cFolder = Folder.current;var cfName = cFolder.fullNamealert("現在のフォルダ："+cfName);

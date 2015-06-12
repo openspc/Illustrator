@@ -1,0 +1,1 @@
+﻿// プリントプリセット一覧を表示するvar pNameList = app.printPresetsList;var txt = "";for (var i=0; i<pNameList.length; i++){    txt = txt + (i+1)+"番目："+pNameList[i] + "\r";}// テキストフレームを生成しプリントプリセット一覧を表示するvar txtObj = app.activeDocument.textFrames.add();txtObj.contents = txt;txtObj.top = -20;   // 表示位置を設定txtObj.left = 10;

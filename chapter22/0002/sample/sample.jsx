@@ -1,0 +1,1 @@
+﻿// ドキュメント内にあるプラグインアイテムを全て削除するactiveDocument.pluginItems.removeAll();

@@ -1,0 +1,1 @@
+﻿// ファイルのパスを表示するvar fileObj = File.openDialog("ファイルを選択してください", "*", false);if (fileObj) {    var fName = fileObj.fullName;   // フルネーム    var aName = fileObj.absoluteURI;    var fPath = fileObj.path;    alert(fName+"\r"+aName+"\r"+fPath);}

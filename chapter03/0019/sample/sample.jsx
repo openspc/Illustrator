@@ -1,0 +1,1 @@
+﻿// 遠近グリッドで、どの面がアクティブになっているか調べるactiveDocument.showPerspectiveGrid();   // 遠近グリッドを表示var pPlane = activeDocument.getPerspectiveActivePlane();alert(pPlane);

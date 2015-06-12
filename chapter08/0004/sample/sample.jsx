@@ -1,0 +1,1 @@
+﻿// 文字のフォントを設定するvar txtObj = activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;txtObj.contents = "Illustrator";var fName = app.textFonts["Times-Bold"];	// Times-Boldフォントfor(var i=0; i<5; i++){ // 先頭5文字だけフォントを変更する    txtObj.characters[i].characterAttributes.textFont = fName;}

@@ -1,0 +1,1 @@
+﻿// ブラシの総数を表示するvar n = activeDocument.brushes.length;alert(n+"個のブラシがあります");

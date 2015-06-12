@@ -1,0 +1,1 @@
+﻿// 行揃えを指定するvar txtObj = activeDocument.textFrames.add();txtObj.left = 100;txtObj.top = -20;txtObj.contents = "イラストレーター\rCC 2014";txtObj.paragraphs[0].justification = Justification.CENTER;	// 先頭の段落のみ中揃え

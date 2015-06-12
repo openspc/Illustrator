@@ -1,0 +1,1 @@
+﻿// パターンカラーの総数を求めるvar n = activeDocument.patterns.length;alert("パターンカラーの総数："+n);

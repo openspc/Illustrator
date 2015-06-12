@@ -1,0 +1,1 @@
+﻿// フォント（書体）の総数を表示するvar fontList = app.textFonts;alert("フォントの総数："+fontList.length);

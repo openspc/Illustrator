@@ -1,0 +1,1 @@
+﻿// 選択したパステキストの文字を内側にするvar selObj = activeDocument.selection;  // 選択されたテキストパスfor(var i=0; i<selObj.length; i++){    selObj[i].textPath.polarity = PolarityValues.NEGATIVE;  // 内側にする}

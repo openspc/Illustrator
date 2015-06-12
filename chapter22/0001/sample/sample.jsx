@@ -1,0 +1,1 @@
+﻿// ドキュメント内にあるプラグインアイテム数を表示するvar n = activeDocument.pluginItems.length;alert(n+"個のプラグインアイテムがあります");

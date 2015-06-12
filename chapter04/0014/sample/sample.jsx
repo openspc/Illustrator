@@ -1,0 +1,1 @@
+﻿// スウォッチカラーを追加するfor(var i=0; i<16; i++){    var swColor = activeDocument.swatches.add();    color_RGB  = new RGBColor();    color_RGB.red = i*16;    // 赤色を設定する    color_RGB.green = 0;    color_RGB.blue = 0;    swColor.name = "JS-赤"+i;  // 名前を設定する    swColor.color = color_RGB;  // カラーを設定する}

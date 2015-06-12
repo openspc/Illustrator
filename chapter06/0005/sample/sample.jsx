@@ -1,0 +1,1 @@
+﻿// テキストフレームの回転角度を指定するvar txtObj = activeDocument.textFrames.add();txtObj.contents = "イラストレーターで自動化処理";txtObj.left = 20;txtObj.top = -100;txtObj.rotate(45, true, false, false, false, Transformation.CENTER);	// 中心を基準にして45度に回転

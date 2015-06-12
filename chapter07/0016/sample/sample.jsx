@@ -1,0 +1,1 @@
+﻿// 最初の行のインデント（字下げ）を指定するvar txtObj = activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;txtObj.paragraphs.add("イラストレーター");txtObj.paragraphs.add("フォトショップ");txtObj.paragraphs.add("インデザイン");txtObj.paragraphs.add("ブリッジ");txtObj.paragraphs[0].firstLineIndent = 150;

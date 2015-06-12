@@ -1,0 +1,1 @@
+﻿// 全てのスポットカラーを削除するvar spObj = activeDocument.spots;for(var i=spObj.length-1; i>=0; i--){    spObj[i].remove();  // 削除する}

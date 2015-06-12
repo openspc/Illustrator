@@ -1,0 +1,1 @@
+﻿// ドキュメント内にあるメッシュグラデーション適用図形を全て削除するactiveDocument.meshItems.removeAll();

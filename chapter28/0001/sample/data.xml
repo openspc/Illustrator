@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<list>
+	<item>
+		<name>松茸</name>
+		<price>3200</price>
+	</item>
+	<item>
+		<name>舞茸</name>
+		<price>4800</price>
+	</item>
+	<item>
+		<name>エリンギ</name>
+		<price>300</price>
+	</item>
+	<item>
+		<name>カキシメジ</name>
+		<price>20</price>
+	</item>
+	<item>
+		<name>ツキヨタケ</name>
+		<price>50</price>
+	</item>
+</list>

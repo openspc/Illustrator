@@ -1,0 +1,1 @@
+﻿// 1文字目を18pt、2文字目を24ptにする、3文字目を9.5ptにするvar txtObj = activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;txtObj.contents = "イラストレーター";txtObj.characters[0].size = 18;	// 1文字目は18pttxtObj.characters[1].size = 24;	// 2文字目は24pttxtObj.characters[2].size = 9.5;	// 3文字目は9pt

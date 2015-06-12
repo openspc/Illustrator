@@ -1,0 +1,1 @@
+﻿// 選択された英数字や記号を縦書き用に回転させるvar selObj = activeDocument.selection;selObj.baselineDirection = BaselineDirectionType.Standard;

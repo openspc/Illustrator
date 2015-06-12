@@ -1,0 +1,1 @@
+﻿// 選択されたパスのポイントの総数を取得するvar selObj = activeDocument.selection;    for(var i=0; i<selObj.length; i++){    if (selObj[i].typename == "PathItem"){        alert((i+1)+"番目のパスポイントの総数："+selObj[i].pathPoints.length);    }}

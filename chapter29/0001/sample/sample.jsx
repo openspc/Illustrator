@@ -1,0 +1,1 @@
+﻿// ページを指定してPDFを開くvar opt = app.preferences.PDFFileOptions;opt.pDFCropToBox = PDFBoxType.PDFBOUNDINGBOX;opt.pageToOpen = 2;	// 2ページ目を開くvar fileObj = File.openDialog ("PDFを選択してください", "*.pdf", false);if (fileObj){    // UIのアラートダイアログを表示しないようにする    app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;    app.open(fileObj, DocumentColorSpace.RGB);  // PDFを開く}

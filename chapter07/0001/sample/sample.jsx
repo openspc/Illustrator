@@ -1,0 +1,1 @@
+﻿// 段落を作成するvar txtObj = activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;var prObj1 = txtObj.paragraphs.add("最初の段落です");  // 段落を作成var prObj2 = txtObj.paragraphs.add("2番目の段落です");// 2番目の段落の前に文字を追加するprObj2.paragraphs.add("【追加する段落】", undefined, ElementPlacement.PLACEATBEGINNING);

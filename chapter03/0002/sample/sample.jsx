@@ -1,0 +1,1 @@
+﻿// 新規にドキュメント(A4)を作成するvar docObj = documents.add(DocumentColorSpace.CMYK, 595.28, 841.89);alert(docObj);

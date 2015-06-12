@@ -1,0 +1,1 @@
+﻿// 選択されたテキストフレームの行数を表示するvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    var count1 = selObj[i].paragraphs.length;    var count2 = selObj[i].story.paragraphs.length;    alert("行数："+count1+"\rStory行数："+count2);}

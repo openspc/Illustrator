@@ -1,0 +1,1 @@
+﻿// 選択されたテキストフレームの最初の段落のスタイルを表示するif (activeDocument.selection.length > 0){    var prObjList = activeDocument.selection[0].paragraphs[0].paragraphStyles;    var sName = prObjList[0].name;    alert("最初の段落のスタイル名は："+sName);}

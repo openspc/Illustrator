@@ -1,0 +1,1 @@
+﻿// 選択された文字を縦中横にするvar selObj = activeDocument.selection;selObj.baselineDirection = BaselineDirectionType.TateChuYoko;

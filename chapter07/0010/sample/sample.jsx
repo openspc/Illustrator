@@ -1,0 +1,1 @@
+﻿// 行単位でベースラインを指定するvar txtObj = app.activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;txtObj.paragraphs.add("フォトショップ");txtObj.paragraphs.add("イラストレーター");txtObj.paragraphs.add("インデザイン");txtObj.paragraphs[1].baselineShift = 10;

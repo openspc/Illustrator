@@ -1,0 +1,1 @@
+﻿// 全てのグラデーションカラーを削除するactiveDocument.gradients.removeAll();

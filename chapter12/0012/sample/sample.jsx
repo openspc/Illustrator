@@ -1,0 +1,1 @@
+﻿// 選択された画像の座標値を表示するvar selObj = activeDocument.selection;for (var i=0; i<selObj.length; i++){    alert("visibleBounds : "+selObj[i].visibleBounds + "\r" +    "geometricBounds : "+selObj[i].geometricBounds);}

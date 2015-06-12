@@ -1,0 +1,1 @@
+﻿// 選択されたテキストフレームに「2014」という文字がいくつ含まれるか調べるvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    var text = selObj[i].contents;	// テキストフレーム内の文字を読み出し    var result = text.match(/2014/g);   // グローバルマッチにして調べる    if(result){        alert(result.length+"個ありました");    }else{        alert("文字は含まれていませんでした");    }}

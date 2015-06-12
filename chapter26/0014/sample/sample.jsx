@@ -1,0 +1,1 @@
+﻿// ファイルが存在するかどうか調べるvar fileObj = new File("~/sample.txt");if (fileObj) {    var flag = fileObj.exists;  // ファイルの有無を調べる    if (flag == true){        alert("ホームフォルダにsample.txtファイルは存在します");    }else{        alert("ホームフォルダにsample.txtファイルは存在していません");    }}

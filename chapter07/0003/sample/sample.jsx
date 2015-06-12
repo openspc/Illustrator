@@ -1,0 +1,1 @@
+﻿// 最初の段落を削除するvar txtObj = activeDocument.selection[0];	// 選択された最初のテキストフレームvar prObj = txtObj.paragraphs[0];	// 最初の段落prObj.remove();

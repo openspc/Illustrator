@@ -1,0 +1,1 @@
+﻿// アプリケーションを実行するvar fileObj = File.openDialog("実行する（開く）ファイルを指定して下さい");if (fileObj) {    fileObj.execute();  // 実行する}

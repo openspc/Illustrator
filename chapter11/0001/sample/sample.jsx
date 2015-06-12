@@ -1,0 +1,1 @@
+﻿// パスの総数を求めるvar pObj1 = activeDocument.pathItems;var pObj2 = activeDocument.activeLayer.pathItems;alert("パスの総数："+pObj1.length + "\rアクティブレイヤーのパスの総数："+pObj2.length);

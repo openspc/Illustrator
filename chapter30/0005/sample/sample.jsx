@@ -1,0 +1,1 @@
+﻿// 最初のアートボードのサイズを表示するvar docObj = app.activeDocument;var rect = docObj.artboards[0].artboardRect;var left = rect[0]; // 左座標var top = rect[1];  // 上座標var right = rect[2];    // 右座標var bottom = rect[3];   // 下座標alert(left+", "+top+", "+right+", "+bottom);

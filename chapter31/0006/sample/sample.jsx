@@ -1,0 +1,1 @@
+﻿// 選択された図形をマトリクスを使って移動させるvar tMatrix = app.getTranslationMatrix(0, 0);var selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    var mtx = concatenateTranslationMatrix(tMatrix, -50, 20);	// 横に-50pt, 縦に20pt移動    selObj[i].transform(mtx);}

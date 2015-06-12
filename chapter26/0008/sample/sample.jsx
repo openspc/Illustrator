@@ -1,0 +1,1 @@
+﻿// ファイル名を変更するvar fileObj = File.openDialog("名前を変更するファイルを選択してください", "*", false);if (fileObj) {    var newname = prompt("新しいファイル名を入れてください", "0123.txt");    if (newname){        var flag = fileObj.rename(newname); // ファイル名変更        if (flag == true){            alert("ファイル名を変更しました");        }else{            alert("ファイル名が変更できませんでした。");        }    }}

@@ -1,0 +1,1 @@
+﻿// テキストフレームを作成するvar txtObj = activeDocument.textFrames.add();txtObj.left = 10;   // X座標を10ptの位置にするtxtObj.top = -50;   // Y座標を上から50ptの位置にするtxtObj.contents = "イラストレーター自動化";

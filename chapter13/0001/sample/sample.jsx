@@ -1,0 +1,1 @@
+﻿// 2つのテキストフレームをグループ化するvar grObj = activeDocument.groupItems.add();    // グループオブジェクトを生成var txtObj1 = grObj.textFrames.add();   // グループオブジェクト内に生成するvar txtObj2 = grObj.textFrames.add();txtObj1.contents = "テキストフレーム、その１";txtObj2.contents = "テキストフレーム、その２";txtObj1.top = -20;  // テキストフレーム1のY座標を設定するtxtObj2.top = -40;  // テキストフレーム2のY座標を設定するgrObj.left = 50;    // グループ全体のX座標を設定する

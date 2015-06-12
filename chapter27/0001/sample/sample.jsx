@@ -1,0 +1,1 @@
+﻿// アクティブドキュメントを保存するif (activeDocument.saved == true){    activeDocument.save();}else{    alert("ドキュメントがまだ保存されていません");    var savefile = File.saveDialog("保存ファイル名を入れてください", "*");    if (savefile != null) {        activeDocument.saveAs(savefile);    }}

@@ -1,0 +1,1 @@
+﻿// 全てのスウォッチカラーを削除するactiveDocument.swatches.removeAll();

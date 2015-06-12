@@ -1,0 +1,1 @@
+﻿// 画像を配置するvar fileObj = File.openDialog ("配置画像を選択してください", "*", false);if (fileObj != null){    var myImage = activeDocument.placedItems.add();    myImage.file = fileObj;}

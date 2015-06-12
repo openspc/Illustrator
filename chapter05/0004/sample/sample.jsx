@@ -1,0 +1,1 @@
+﻿// テキストフレーム内の最初の段落にTimes-Boldフォントを設定するvar textObj = activeDocument.textFrames.add();	// テキストフレームを生成するtextObj.contents = "Adobe Illustrator\rAdobe Photoshop\rAdobe InDesign";textObj.top = -20;  // 位置調整textObj.left = 10;var fName = app.textFonts["Times-Bold"];	// Times-Boldフォント// 最初の段落にフォントを設定textObj.paragraphs[0].characterAttributes.textFont = fName;

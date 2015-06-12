@@ -1,0 +1,1 @@
+﻿// アクションファイルを読み込むapp.loadAction(new File("~/Desktop/rotateX.aia"));

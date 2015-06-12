@@ -1,0 +1,1 @@
+﻿// 指定したサイズでウィンドウをキャプチャーし画像として保存するvar fileObj = File.saveDialog("保存ファイル名を入れてください");if (fileObj){    activeDocument.windowCapture(fileObj, [200, 300] );}

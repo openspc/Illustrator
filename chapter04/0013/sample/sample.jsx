@@ -1,0 +1,1 @@
+﻿// スウォッチパネルで選択されているスウォッチカラーを取得するvar swColor = activeDocument.swatches.getSelected();    // 選択中のスウォッチを取得if(swColor.length == 0){    alert("選択されていません");}else{    alert(swColor.length+"個のスウォッチカラーが選択されています");    alert("最初に選択されたスウォッチカラー名："+swColor[0].name);}

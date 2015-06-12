@@ -1,0 +1,1 @@
+﻿// 選択された文字を表示するvar selObj = activeDocument.selection;if(selObj.typename == "TextRange"){ // 選択テキストかどうか    alert(selObj.contents);  // 選択文字を表示}else{    alert("選択されているのは文字ではありません");}

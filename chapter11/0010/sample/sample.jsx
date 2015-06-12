@@ -1,0 +1,1 @@
+﻿// 複合パスを削除（ロックされたもの、ロックレイヤー上のものは除く）var compObj = activeDocument.compoundPathItems;for(var i=compObj.length-1; i>-1; i--){    try{        compObj[i].remove();    }catch(e){}}

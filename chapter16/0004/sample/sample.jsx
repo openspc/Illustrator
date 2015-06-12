@@ -1,0 +1,1 @@
+﻿// 文字の選択範囲を指定するvar trObj = activeDocument.selection;if(trObj.typename && trObj.typename == "TextRange"){    trObj.characterOffset = 3;  // 3文字目から選択する    trObj.length = 7;  // 7文字を選択する    trObj.deSelect();   // 一度選択範囲を解除する    trObj.select(true); // 新規に選択範囲とする}

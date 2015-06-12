@@ -1,0 +1,1 @@
+﻿// スウォッチカラーの総数を求めるvar n = activeDocument.swatches.length;alert("スウォッチカラーの総数："+n);

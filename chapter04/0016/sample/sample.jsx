@@ -1,0 +1,1 @@
+﻿// 指定した名前のスウォッチカラーグループを削除するtry{    activeDocument.swatchGroups["輝き"].remove();}catch(e){    alert("該当する名前のスウォッチカラーグループはありません");}

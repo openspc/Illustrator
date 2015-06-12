@@ -1,0 +1,1 @@
+﻿// ファイルをコピーするvar fileObj = File.openDialog("コピー元のファイルを選択してください", "*", false);var copyTarget = new File("~/0x"+fileObj.name);if (fileObj) {    var flag = fileObj.copy(copyTarget);    if (flag == true){        alert("正常にファイルがコピーされました");    }else{        alert("ファイルがコピーできませんでした。");    }}

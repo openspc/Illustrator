@@ -1,0 +1,1 @@
+﻿// 複数のファイルをファイルダイアログを使って開くvar fileList = File.openDialog ("イラストレーターで開けるファイルを複数選択してください", "*", true);if (fileList != null) {    for (var i=0; i<fileList.length; i++){        try {            app.open(fileList[i]);        }catch(e){}    }}

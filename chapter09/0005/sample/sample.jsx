@@ -1,0 +1,1 @@
+﻿// 西暦4桁を平成2桁の年号に変換するvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    var text = selObj[i].contents;	// テキストフレーム内の文字を読み出す    selObj[i].contents = text.replace(/\d{4}/g, function(str, ptr){        var year = parseInt(str);   // 4桁の整数値にする        year = year - 1988; // 平成に変換する        return "平成"+year;    });}

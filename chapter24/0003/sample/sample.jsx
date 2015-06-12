@@ -1,0 +1,1 @@
+﻿// アクティブドキュメントを印刷するvar printObj = new PrintOptions();// カラー設定オプションvar colorOpt = new PrintColorManagementOptions();colorOpt.colorProfileMode = PrintColorProfile.SOURCEPROFILE;colorOpt.name = "ColorMatch RGB";   // RGBカラーcolorOpt.intent = PrintColorIntent.RELATIVECOLORIMETRIC;printObj.colorManagementOptions = colorOpt;// アクティブドキュメントを印刷するactiveDocument.print(printObj);

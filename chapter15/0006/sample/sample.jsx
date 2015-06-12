@@ -1,0 +1,1 @@
+﻿// 選択されたオブジェクトの種類を表示するvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    try{        alert("種類："+selObj[i].typename);    }catch(e){        alert(selObj.typename);	// 文字が選択されていた場合    }}

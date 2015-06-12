@@ -1,0 +1,1 @@
+﻿// フォント（書体）の情報を表示するvar fontList = app.textFonts;var index = 0;alert("フォント名："+fontList[index].name + "\n" +    "フォントファミリー名："+fontList[index].family + "\n" +    "フォントスタイル名："+fontList[index].style);

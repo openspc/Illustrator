@@ -1,0 +1,1 @@
+﻿// 選択された文字を削除するvar selObj = activeDocument.selection;if(selObj.typename == "TextRange"){    selObj.remove();    // 削除する    selObj.deSelect();  // 選択を解除する}

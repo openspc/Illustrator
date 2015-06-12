@@ -1,0 +1,1 @@
+﻿// 選択された文字のサイズを変更するvar selObj = activeDocument.selection;if(selObj.typename == "TextRange"){    // 選択範囲全体のサイズを変更する    selObj.characterAttributes.size = 9;    // 選択された3行目のサイズを変更する    selObj.lines[2].characterAttributes.size = 32;    // 選択された先頭の10文字分のサイズを変更する    for(var i=0; i<10; i++){        selObj.characters[i].characterAttributes.size = 12 + i;    }}

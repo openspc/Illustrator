@@ -1,0 +1,1 @@
+﻿// ワークスペースを削除するapp.deleteWorkspace("校正用WS");

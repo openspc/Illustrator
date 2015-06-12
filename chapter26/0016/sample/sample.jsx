@@ -1,0 +1,1 @@
+﻿// ファイルが書き込み禁止になっているか調べるvar fileObj = File.openDialog("ファイルを選択してください", "*", false);if (fileObj) {    var flag = fileObj.readonly;    // 読み出しのみかどうか調べる    if (flag == true){        alert("ファイルがロックされ書き込み禁止になっています。");    }else{        alert("ファイルはロックされていません。");    }}

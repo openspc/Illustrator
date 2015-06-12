@@ -1,0 +1,1 @@
+﻿// アクティブドキュメントを閉じる（確認のダイアログを表示する）try{    activeDocument.close(SaveOptions.PROMPTTOSAVECHANGES);}catch(e){    alert("キャンセルされました");}

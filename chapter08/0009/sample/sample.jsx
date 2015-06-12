@@ -1,0 +1,1 @@
+﻿// 文字のキャップスを設定するvar txtObj = activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;txtObj.contents = "Adobe illustrator CC 2014";for(var i=0; i<10; i++){    txtObj.characters[i].capitalization = FontCapsOption.ALLCAPS;	// 全部大文字}

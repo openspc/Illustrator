@@ -1,0 +1,1 @@
+﻿// 選択されている図形を他のドキュメントに移動させるvar selObj = activeDocument.selection;    // 現在のアクティブドキュメントの選択図形var newDoc = app.documents.add(DocumentColorSpace.RGB, 595.28, 841.89);for(var i=0; i<selObj.length; i++){    selObj[i].move(newDoc, ElementPlacement.INSIDE);    // 他のページに移動させる}

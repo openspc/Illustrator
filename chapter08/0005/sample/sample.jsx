@@ -1,0 +1,1 @@
+﻿// 1文字目を長体、2文字目を平体にするvar txtObj = activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;txtObj.contents = "イラストレーター";txtObj.characters[0].horizontalScale = 50;	// 1文字目は50%txtObj.characters[1].horizontalScale = 200;	// 2文字目は200%

@@ -1,0 +1,1 @@
+﻿// ドキュメント内にあるシンボルアイテム数を表示するvar n = activeDocument.symbolItems.length;alert(n+"個のシンボルアイテムがあります");

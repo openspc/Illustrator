@@ -1,0 +1,1 @@
+﻿// ユーザー操作レベルを設定するapp.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;

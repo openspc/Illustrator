@@ -1,0 +1,1 @@
+﻿// プリンタ一覧を表示するvar pNameList = app.printerList;var txt = "";for (var i=0; i<pNameList.length; i++){    txt = txt + (i+1)+"番目："+pNameList[i].name + "\r";}// テキストフレームを生成しプリンタ一覧を表示するvar txtObj = app.activeDocument.textFrames.add();txtObj.contents = txt;txtObj.top = -20;   // 表示位置を設定txtObj.left = 10;

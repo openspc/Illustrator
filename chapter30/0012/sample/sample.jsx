@@ -1,0 +1,1 @@
+﻿// アートボードを再レイアウトするactiveDocument.rearrangeArtboards(DocumentArtboardLayout.Row);

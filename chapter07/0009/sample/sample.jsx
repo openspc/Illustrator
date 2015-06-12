@@ -1,0 +1,1 @@
+﻿// 行単位でフォントを指定するvar txtObj = app.activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;txtObj.paragraphs.add("Photoshop");txtObj.paragraphs.add("Illustrator");txtObj.paragraphs.add("InDesign");txtObj.paragraphs.add("AfterEffects");txtObj.paragraphs[1].textFont = app.textFonts["Arial-Black"];txtObj.paragraphs[2].textFont = app.textFonts["Times-Bold"];

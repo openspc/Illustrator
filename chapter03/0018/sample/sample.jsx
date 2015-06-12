@@ -1,0 +1,1 @@
+﻿// 遠近グリッドを表示するvar flag = activeDocument.showPerspectiveGrid();if (flag){    alert("遠近グリッドを表示しました");}else{    alert("遠近グリッドを表示できませんでした");}

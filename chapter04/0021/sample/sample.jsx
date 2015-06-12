@@ -1,0 +1,1 @@
+﻿// スポットカラーの総数を求めるvar n = activeDocument.spots.length;alert("スポットカラーの総数："+n);

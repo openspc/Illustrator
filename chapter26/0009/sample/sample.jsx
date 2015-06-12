@@ -1,0 +1,1 @@
+﻿// ファイルの名前を表示するvar fileObj = File.openDialog("ファイルを選択してください", "*", false);if (fileObj) {    var fName = fileObj.name;    alert(fName);    alert(File.decode(fName));}

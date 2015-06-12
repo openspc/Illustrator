@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<list>
+	<app>
+		<name jpname="イラストレータ">Illustrator</name>
+		<ver>CC</ver>
+	</app>
+	<app>
+		<name jpname="イラストレータ">Photoshop</name>
+		<ver>CC 2014</ver>
+	</app>
+	<app>
+		<name jpname="イラストレータ">InDesign</name>
+		<ver>CS6</ver>
+	</app>
+	<app>
+		<name jpname="ブリッジ">Bridge</name>
+		<ver>CC</ver>
+	</app>
+	<app>
+		<name jpname="アフターエフェクツ">AfterEffects</name>
+		<ver>CC 2014</ver>
+	</app>
+</list>

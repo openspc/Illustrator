@@ -1,0 +1,1 @@
+﻿// 選択された画像を指定した幅にするvar selObj = activeDocument.selection;for (var i=0; i<selObj.length; i++){    selObj[i].width = 100;  // 横幅を100ptにする    selObj[i].height = 50;  // 縦幅を50ptにする}

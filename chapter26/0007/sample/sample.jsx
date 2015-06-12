@@ -1,0 +1,1 @@
+﻿// ファイルを削除するvar fileObj = File.openDialog("削除するファイルを選択してください", "*", false);if (fileObj) {    var flag = fileObj.remove();    // ファイルを削除    if (flag == true){        alert("ファイルが削除されました");    }else{        alert("ファイルは削除できませんでした。");    }}

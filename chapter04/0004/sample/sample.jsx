@@ -1,0 +1,1 @@
+﻿// 塗り潰しのカラーを「なし」に指定するvar color = new NoColor();activeDocument.defaultFillColor = color;

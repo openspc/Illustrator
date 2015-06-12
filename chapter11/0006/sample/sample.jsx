@@ -1,0 +1,1 @@
+﻿// レイヤー 1にある全てのパスを削除するtry{    var layObj = activeDocument.layers["レイヤー 2"];    if (layObj.locked == true){        alert("レイヤーがロックされているので削除できません");    }    if (layObj.visible == false){        alert("レイヤーが表示されていないので削除できません");    }    layObj.pathItems.removeAll();   // レイヤー上のパスを全て削除する}catch(e){    alert("指定されたレイヤーがありません");}

@@ -1,0 +1,1 @@
+﻿// キャンセルされるまで連続して画像を配置するwhile(true){    var fileObj = File.openDialog ("配置画像を選択してください", "*", false);    if (!fileObj){ break; } // キャンセルされたら繰り返しを終了    var myImage = activeDocument.placedItems.add(); // 画像を配置    myImage.file = fileObj;}

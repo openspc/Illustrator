@@ -1,0 +1,1 @@
+﻿// 指定したアートボードを選択した図形のサイズに合わせるvar flag = activeDocument.fitArtboardToSelectedArt(2);if(flag == true){    alert("アートボードを変更しました");}else{    alert("アートボードの変更に失敗しました");}

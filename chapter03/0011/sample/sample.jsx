@@ -1,0 +1,1 @@
+﻿// ドキュメントサイズを表示するvar w = activeDocument.width;var h = activeDocument.height;alert("ドキュメントサイズ："+w+"pt ×"+h+"pt");// ptからmmに変換するw = new UnitValue(w, "pt");h = new UnitValue(h, "pt");wMM = w.as("mm");hMM = h.as("mm");alert("ドキュメントサイズ："+wMM+"mm ×"+hMM+"mm");

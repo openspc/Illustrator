@@ -1,0 +1,1 @@
+﻿// 選択したテキストフレームのリンクを解除するvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    selObj[i].convertAreaObjectToPointObject(); // エリアテキストからポイントテキストに変換    selObj[i].convertPointObjectToAreaObject(); // ポイントテキストからエリアテキストに変換}

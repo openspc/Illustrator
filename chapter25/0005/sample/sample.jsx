@@ -1,0 +1,1 @@
+﻿// テンポラリフォルダのパスを表示するvar cFolder = Folder.temp;var tempName = cFolder.fullNamealert("テンポラリ（一時敵に使用する）フォルダ："+tempName);

@@ -1,0 +1,1 @@
+﻿// すべてのテキストフレームをエリアオブジェクトからポイントテキストに変換するvar docObj = app.activeDocument;for(var i=0; i<docObj.textFrames.length; i++){    docObj.textFrames[i].convertAreaObjectToPointObject();}

@@ -1,0 +1,1 @@
+﻿// スクリプトから3D>押し出し...を実行するapp.executeMenuCommand("Live 3DExtrude");

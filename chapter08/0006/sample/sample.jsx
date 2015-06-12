@@ -1,0 +1,1 @@
+﻿// 文字のトラッキングを設定するvar txtObj = activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;txtObj.contents = "イラストレーター";txtObj.characters[0].tracking = -500;	// -500にするtxtObj.characters[1].tracking = 500;	// 200にする

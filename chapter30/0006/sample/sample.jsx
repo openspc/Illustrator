@@ -1,0 +1,1 @@
+﻿// 最初のアートボード以外全て削除するvar docObj = app.activeDocument;for(var i=docObj.artboards.length-1; i>0; i--){    docObj.artboards[i].remove();   // 指定した番号のアートボードを削除}

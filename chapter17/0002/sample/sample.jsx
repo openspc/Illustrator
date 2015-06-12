@@ -1,0 +1,1 @@
+﻿// 選択した文字や図形にグラフィックスタイルを設定するvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    activeDocument.graphicStyles["木の葉_GS"].applyTo(selObj[i]);}

@@ -1,0 +1,1 @@
+﻿// ワークスペースを切り替えるtry{    app.switchWorkspace("Web")}catch(e){    alert("そのようなワークスペースはありません");}

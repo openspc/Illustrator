@@ -1,0 +1,1 @@
+﻿// ドキュメントをパスワード付きのPDFとして保存するvar fileObj = File.saveDialog("保存するPDFのファイル名を入れてください");var opt = new PDFSaveOptions();opt.requireDocumentPassword = true;	// 開くときにパスワードが必要opt.documentPassword = "AI";    // パスワードをAIに設定するactiveDocument.saveAs(fileObj, opt);

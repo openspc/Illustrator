@@ -1,0 +1,1 @@
+﻿// 選択されたテキストフレームの縦書き・横書きを切り替えるvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    var f = selObj[i].orientation;  // 文字の組方向を取得する    if (f == TextOrientation.HORIZONTAL){        selObj[i].orientation = TextOrientation.VERTICAL;   // 縦書きにする    }else{        selObj[i].orientation = TextOrientation.HORIZONTAL; // 横書きにする    }}

@@ -1,0 +1,1 @@
+﻿// 選択された中でパスだけ削除するvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    if (selObj[i].typename == "PathItem"){  // パスかどうか        selObj[i].remove(); // 削除する    }}

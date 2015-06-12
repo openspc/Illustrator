@@ -1,0 +1,1 @@
+﻿// エリアテキストを作成するvar rect = activeDocument.pathItems.rectangle(-50, 10, 100, 80);  // Y,X,横幅,縦幅var txtObj = activeDocument.textFrames.areaText(rect);txtObj.contents = "イラストレーターをプログラムを使って自動化します。";

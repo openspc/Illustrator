@@ -1,0 +1,1 @@
+﻿// レイヤーを作成するvar layObj = activeDocument.layers.add();layObj.name = "下絵レイヤー";// カラーを設定するvar color = new RGBColor();color.red = 255;color.green = 128;color.blue = 0;// レイヤーカラーとして設定するlayObj.color = color;

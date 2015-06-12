@@ -1,0 +1,1 @@
+﻿// 全てのシンボルを削除するactiveDocument.symbols.removeAll();

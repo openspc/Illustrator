@@ -1,0 +1,1 @@
+﻿// アートボードを追加するvar docObj = app.activeDocument;var top = 0;    // 上の座標値（単位はポイント）var left = 10;  // 左の座標値（単位はポイント）var bottom = -400;  // 下の座標値（単位はポイント）var right = 800;    // 右の座標値（単位はポイント）var ab = docObj.artboards.add([left, top, right, bottom]);

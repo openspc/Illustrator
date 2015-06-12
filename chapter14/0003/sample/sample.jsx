@@ -1,0 +1,1 @@
+﻿// レイヤーを番号で指定するvar layObjTop = activeDocument.layers[0];var layObjBottom = activeDocument.layers[activeDocument.layers.length-1];alert("一番上のレイヤー名："+layObjTop.name +    "\r一番下のレイヤー名：" +  layObjBottom.name);

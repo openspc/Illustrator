@@ -1,0 +1,1 @@
+﻿// デスクトップフォルダのパスを表示するvar cFolder = Folder.desktop;var desk = cFolder.fullNamealert("デスクトップフォルダ："+desk);

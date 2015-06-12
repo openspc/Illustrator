@@ -1,0 +1,1 @@
+﻿// 複数のテキストフレーム内で文字を選択するfor(var i=0; i<activeDocument.selection.length; i++){    var txtObj = activeDocument.selection[i];    if(txtObj.typename == "TextFrame"){        trObj = txtObj.textRange;        trObj.length = 28;   //  3文字分を選択する        trObj.characterOffset = 10; // 10文字目から選択        trObj.select(true); // 既存の選択範囲に追加する    }}

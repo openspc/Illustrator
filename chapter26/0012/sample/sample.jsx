@@ -1,0 +1,1 @@
+﻿// ファイルがエイリアスかどうか調べるvar fileObj = File.openDialog("ファイルを選択してください", "*", false);if (fileObj) {    var flag = fileObj.alias;    if (flag == true){        alert("ファイルはエイリアス／ショートカットです");    }else{        alert("ファイルはエイリアス／ショートカットではありません");    }}

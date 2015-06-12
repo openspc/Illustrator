@@ -1,0 +1,1 @@
+﻿// スポットカラーの種類を調べるvar spotObj = activeDocument.spots;for(var i=0; i<spotObj.length; i++){    alert(spotObj[i].colorType);}

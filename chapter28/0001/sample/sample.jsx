@@ -1,0 +1,1 @@
+﻿// XMLデータを作成するtry {    var xml = new XML("<root><data><name>KF</name><num>2</num></data></root>");}catch(e){    xml = "解析できませんでした。エラー："+e;}alert(xml);

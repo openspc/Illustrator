@@ -1,0 +1,1 @@
+﻿// 選択されたテキストフレームのアウトラインを作成するvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    if (selObj[i].typename == "TextFrame"){        selObj[i].createOutline();    }}

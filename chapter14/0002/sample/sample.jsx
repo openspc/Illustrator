@@ -1,0 +1,1 @@
+﻿// レイヤーを名前で指定するtry{    var layObj = activeDocument.layers["レイヤー 2"];    alert("レイヤー情報を取得しました");}catch(e){    alert("該当するレイヤーはありません");}

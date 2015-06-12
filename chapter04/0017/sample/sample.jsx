@@ -1,0 +1,1 @@
+﻿// 全てのスウォッチカラーグループを削除するactiveDocument.swatchGroups.removeAll();

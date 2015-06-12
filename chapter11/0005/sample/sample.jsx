@@ -1,0 +1,1 @@
+﻿// レイヤーロックされていないパスを全て削除するactiveDocument.pathItems.removeAll();

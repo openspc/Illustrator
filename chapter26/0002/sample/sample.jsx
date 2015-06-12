@@ -1,0 +1,1 @@
+﻿// パスを指定してファイルを開くvar fileObj = new File("~/images/0.jpg");try {    app.open(fileObj);}catch(e){    alert("エラーです。\r" + e);}

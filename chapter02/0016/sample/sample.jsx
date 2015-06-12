@@ -1,0 +1,1 @@
+﻿// ワークスペースをリセットするtry{    app.resetWorkspace();}catch(e){    alert("CC以降でないと実行できません");}

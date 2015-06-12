@@ -1,0 +1,1 @@
+﻿// アクティブドキュメントの選択を解除するactiveDocument.selection = null;

@@ -1,0 +1,1 @@
+﻿// 複合パスの総数を表示するvar compObj1 = activeDocument.compoundPathItems;var compObj2 = activeDocument.layers[0].compoundPathItems;var compObj3 = activeDocument.activeLayer.compoundPathItems;alert("ドキュメント内の複合パスの総数："+compObj1.length + "\r" +    "一番上のレイヤーの複合パスの総数："+compObj2.length + "\r" +    "アクティブレイヤーの複合パスの総数："+compObj3.length);

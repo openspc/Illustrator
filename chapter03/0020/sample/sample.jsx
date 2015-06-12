@@ -1,0 +1,1 @@
+﻿// 遠近グリッドで指定した面をアクティブにするactiveDocument.showPerspectiveGrid();   // 遠近グリッドを表示activeDocument.setPerspectiveActivePlane(PerspectiveGridPlaneType.FLOORPLANE);

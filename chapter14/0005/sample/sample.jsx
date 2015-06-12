@@ -1,0 +1,1 @@
+﻿// レイヤーを削除するvar layObj1 = activeDocument.layers[2];layObj1.remove();try{    var layObj2 = activeDocument.layers["レイヤー 11"];    layObj2.remove();}catch(e){}    // 該当レイヤーがない場合は何もしない

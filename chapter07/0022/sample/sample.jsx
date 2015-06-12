@@ -1,0 +1,1 @@
+﻿// 1行ずつ番号をつけるvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    for(var j=0; j<selObj[i].lines.length; j++){    // 行数分繰り返す        var n = j + 1;  // 番号を算出        n = ("0000" + n).slice(-4); // 4桁にする        selObj[i].lines[j].contents = n + "　" + selObj[i].lines[j].contents;    }}

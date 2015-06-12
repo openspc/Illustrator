@@ -1,0 +1,1 @@
+﻿// 全てのパターンカラーを削除するactiveDocument.patterns.removeAll();

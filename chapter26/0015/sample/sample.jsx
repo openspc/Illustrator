@@ -1,0 +1,1 @@
+﻿// 改行コードの種類を調べるvar fileObj = new File();if (fileObj) {    var type = fileObj.lineFeed;    // 改行の種類を取得    alert(type);}

@@ -1,0 +1,1 @@
+﻿// テキストフレーム全体の英文字のキャップスを設定するvar txtObj = activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;txtObj.contents = "Adobe illustrator CC 2014 : creative cloud　2014";txtObj.textRange.changeCaseTo(CaseChangeType.TITLECASE);

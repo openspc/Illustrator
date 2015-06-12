@@ -1,0 +1,1 @@
+﻿// 特定のレイヤーにある全ての項目を選択するfor(var i=0; i<activeDocument.layers["telop"].pageItems.length; i++){    try{        activeDocument.layers["telop"].pageItems[i].selected = true;    }catch(e){        // ロックされているので何もしない    }}

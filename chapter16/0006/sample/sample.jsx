@@ -1,0 +1,1 @@
+﻿// 選択されたテキストフレーム内の文字の開始位置と文字数を表示するvar trObj = activeDocument.selection;if(trObj.typename && trObj.typename == "TextRange"){    var sp = trObj.characterOffset; // 選択開始位置    var ep = trObj.insertionPoints.length-1;    // 選択終了位置    alert(sp+"文字目から"+ep+"文字が選択されています");}

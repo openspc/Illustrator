@@ -1,0 +1,1 @@
+﻿// レイヤー／サブレイヤーの総数を取得するvar n = activeDocument.layers.length;var ns = activeDocument.layers[0].layers.length;alert("レイヤー総数：" + n +"\rサブレイヤー総数：" +  ns);

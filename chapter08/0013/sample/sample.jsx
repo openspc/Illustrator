@@ -1,0 +1,1 @@
+// 選択された文字を割注にするvar selObj = activeDocument.selection;selObj.wariChuEnabled = true;

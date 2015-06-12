@@ -1,0 +1,1 @@
+﻿// ドキュメントのカラーモードを調べるvar cMode = activeDocument.documentColorSpace;alert(cMode);

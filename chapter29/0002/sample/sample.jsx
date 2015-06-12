@@ -1,0 +1,1 @@
+// 現在開かれているドキュメントをPDFとして保存するvar fileObj = File.saveDialog("保存するPDFファイル名を入れてください");var opt = new PDFSaveOptions();opt.trimMarks = true;	// トリムマークありopt.compatibility = PDFCompatibility.ACROBAT8;  // Acrobat 8(PDF1.7)互換opt.generateThumbnails = true;  // サムネールを作成するopt.preserveEditability = true; // 編集可能なPDFとして保存するactiveDocument.saveAs(fileObj, opt);

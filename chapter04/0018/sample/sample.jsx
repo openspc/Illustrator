@@ -1,0 +1,1 @@
+﻿// スウォッチカラーグループ内のスウォッチカラーを求めるvar swList = activeDocument.swatchGroups["グレー"].getAllSwatches();alert("グループ[グレー]内のスウォッチ総数："+swList.length);

@@ -1,0 +1,1 @@
+﻿// パステキストを作成するvar rect = activeDocument.pathItems.rectangle(-100, 80, 120, 60);   // Y,X,横幅,縦幅var txtObj = activeDocument.textFrames.pathText(rect);txtObj.contents = "アドビイラストレーターをプログラムを使って自動化します";

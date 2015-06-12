@@ -1,0 +1,1 @@
+﻿// グラフィックスタイルを削除するactiveDocument.graphicStyles["木の葉_GS"].remove();

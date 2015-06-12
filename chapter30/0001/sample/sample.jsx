@@ -1,0 +1,1 @@
+﻿// アートボードの数を求めるvar docObj = app.activeDocument;var n = docObj.artboards.length;alert("アートボードの総数："+n);

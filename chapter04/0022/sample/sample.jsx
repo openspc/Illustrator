@@ -1,0 +1,1 @@
+﻿// 銀色の名前のスポットカラーを削除するtry{    activeDocument.spots["銀色"].remove();}catch(e){    alert("該当する名前のスポットカラーはありません");}

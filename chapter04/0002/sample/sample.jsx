@@ -1,0 +1,1 @@
+﻿// CMYKでデフォルトの塗り潰しのカラーを指定するvar color = new CMYKColor();color.cyan = 80.25;color.magenta = 19.69;color.yellow = 21.5;color.black = 10.25;activeDocument.defaultFillColor = color;

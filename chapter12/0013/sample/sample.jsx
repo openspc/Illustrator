@@ -1,0 +1,1 @@
+﻿// 選択された画像の幅を取得するvar selObj = activeDocument.selection;for (var i=0; i<selObj.length; i++){    var w = selObj[i].width;  // 横幅    var h = selObj[i].height;  // 縦幅    alert("横幅："+w+", 縦幅："+h);}

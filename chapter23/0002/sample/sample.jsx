@@ -1,0 +1,1 @@
+﻿// 選択した図形に指定したブラシを適用するvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    activeDocument.brushes["モップ"].applyTo(selObj[i]);}

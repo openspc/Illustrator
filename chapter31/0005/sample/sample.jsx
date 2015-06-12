@@ -1,0 +1,1 @@
+﻿// 選択された図形をマトリクスを使って拡大縮小させるvar tMatrix = app.getTranslationMatrix(0, 0);var selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    var mtx = concatenateScaleMatrix(tMatrix, 50, 150);	// 横50%,縦150%    selObj[i].transform(mtx);}

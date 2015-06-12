@@ -1,0 +1,1 @@
+﻿// 登録されているシンボル数を表示するvar n = activeDocument.symbols.length;alert(n+"個のシンボルがあります");

@@ -1,0 +1,1 @@
+﻿// テキストフレームのスケールを指定するvar txtObj = activeDocument.textFrames.add();txtObj.contents = "イラストレーターで自動化処理";txtObj.resize(50, 300);	// 横 : 50%、縦：300%txtObj.top = -20;txtObj.left = 10;

@@ -1,0 +1,1 @@
+﻿// 特定のメモ（注釈）を持つオブジェクトだけを選択するvar msg = prompt("ノート内の文字を指定してください", "山");if (msg){    var docObj = activeDocument;	// アクティブドキュメントを指定する    for(var i=0; i<docObj.pageItems.length; i++){        if(docObj.pageItems[i].note == msg) {   // 一致しているか調べる            try {                docObj.pageItems[i].selected = true;    // 選択する            }catch(e){}        }    }}

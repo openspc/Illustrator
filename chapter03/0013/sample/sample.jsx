@@ -1,0 +1,1 @@
+﻿// ドキュメントの原点座標を求めるvar origin = activeDocument.pageOrigin;var px = origin[0];var py = origin[1];alert("原点座標：（"+px+","+py+"）");

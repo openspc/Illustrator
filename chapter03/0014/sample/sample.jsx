@@ -1,0 +1,1 @@
+﻿// トリムエリア（ドキュメント領域のクリッピング）を作成するvar rect = [0, 50, 100, -300];	// left, top, right, bottomactiveDocument.cropBox = rect;

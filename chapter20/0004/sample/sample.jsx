@@ -1,0 +1,1 @@
+﻿// シンボルをドキュメント上に表示するvar sym = activeDocument.symbols[0];    // 最初に登録されているシンボルvar symObj = activeDocument.symbolItems.add(sym);symObj.top = -40;   // Y座標symObj.left = 20;   // X座標symObj.width = 100; // 横幅symObj.height = 75; // 縦幅

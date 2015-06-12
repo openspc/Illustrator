@@ -1,0 +1,1 @@
+﻿// アプリケーションのパスを表示するalert(app.path);// メニューに表示されるスクリプト項目名を表示するvar scriptPath = app.path + "/Presets.localized/ja_JP/スクリプト";var fList = (new Folder(scriptPath)).getFiles();var txt = "";for(var i=0; i<fList.length; i++){    txt = txt + decodeURI(fList[i].name)+"\r";}alert(txt);

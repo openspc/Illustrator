@@ -1,0 +1,1 @@
+﻿// ロックされていない全ての項目を選択するfor(var i=0; i<activeDocument.pageItems.length; i++){    try{        activeDocument.pageItems[i].selected = true;    }catch(e){        // ロックされているので何もしない    }}

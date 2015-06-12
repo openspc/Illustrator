@@ -1,0 +1,1 @@
+﻿// グラデーションカラーの総数を求めるvar n = activeDocument.gradients.length;alert("グラデーションカラーの総数："+n);

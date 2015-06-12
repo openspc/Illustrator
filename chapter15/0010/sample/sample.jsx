@@ -1,0 +1,1 @@
+﻿// 特定の破線パターンを持つパスを選択するvar pat = prompt("破線パターンを入れてください", "12,4");if (pat){   // 破線パターンが入力された場合に処理する    var pObj = activeDocument.pathItems;    // 全てのパス    for(var i=0; i<pObj.length; i++){   // パスの数だけ繰り返す        if(pObj[i].strokeDashes.toString() == pat){ // 破線パターンと一致しているか調べる            pObj[i].selected = true;    // 一致したら選択する        }    }}

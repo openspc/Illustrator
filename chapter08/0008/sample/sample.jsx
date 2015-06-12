@@ -1,0 +1,1 @@
+﻿// 文字のベースラインを設定するvar txtObj = activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;txtObj.contents = "イラストレーター";txtObj.characters[2].baselineShift = 10;	// 10にする

@@ -1,0 +1,1 @@
+﻿// 特定の名前のレイヤーをアクティブにするtry{    var layObj = app.activeDocument.layers["Copyright"];    app.activeDocument.activeLayer = layObj;    // アクティブなレイヤーとして設定}catch(e){}

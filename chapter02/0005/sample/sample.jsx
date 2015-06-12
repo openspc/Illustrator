@@ -1,0 +1,1 @@
+﻿// 選択されたオブジェクトをコピーし、その後ペーストするif (activeDocument.selection.length > 0){    app.copy(); // コピーする    // app.cut();   // カットする    app.paste();    // ペーストする}

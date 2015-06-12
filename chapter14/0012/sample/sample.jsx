@@ -1,0 +1,1 @@
+﻿// 指定したレイヤーを移動させるvar sLayer = activeDocument.layers["レイヤー 3"];   // 移動させたいレイヤーvar bottomLayer = activeDocument.layers[activeDocument.layers.length-1];    // 一番下のレイヤーsLayer.move(bottomLayer, ElementPlacement.PLACEAFTER);  // 一番下に移動

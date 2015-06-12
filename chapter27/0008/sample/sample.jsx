@@ -1,0 +1,1 @@
+﻿// PDFとして保存するvar saveObj = File.saveDialog ("保存PDFファイル名を入れてください");if (saveObj != null){    var opt = new PDFSaveOptions();    opt.trimMarks = true;	// トリムマークあり    opt.compatibility = PDFCompatibility.ACROBAT8;  // Acrobat8互換    opt.generateThumbnails = true;  // サムネールあり    activeDocument.saveAs(saveObj, opt);}

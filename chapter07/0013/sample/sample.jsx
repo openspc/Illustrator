@@ -1,0 +1,1 @@
+﻿// 選択されたテキストフレームの段落の総数を表示するif (activeDocument.selection.length > 0){    var n = activeDocument.selection[0].paragraphs.length;    alert("段落の数は："+n);}

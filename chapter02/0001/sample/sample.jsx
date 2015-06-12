@@ -1,0 +1,1 @@
+﻿// イラストレータのみ動作させるvar aName = app.name;alert(aName);if (aName.indexOf("Illustrator") > -1){    alert("イラストレータなので自動処理を行います");}else{    alert(aName+"では動作しません");}

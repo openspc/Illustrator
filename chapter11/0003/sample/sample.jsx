@@ -1,0 +1,1 @@
+﻿// 選択されたパスのパスポイントの座標値を表示するvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    if (selObj[i].typename == "PathItem"){        for(var j=0; j<selObj[i].pathPoints.length; j++){            var x = selObj[i].pathPoints[j].anchor[0];            var y = selObj[i].pathPoints[j].anchor[1];            alert("パスポイントの座標値：("+x+", "+y+")");        }    }}

@@ -1,0 +1,1 @@
+﻿// テキストフレームだけ選択を解除するvar txtObj = activeDocument.textFrames;for (var i=0; i<txtObj.length; i++){    try{        txtObj[i].selected = false;    }catch(e){}}

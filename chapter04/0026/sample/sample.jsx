@@ -1,0 +1,1 @@
+﻿// 指定した名前のパターンカラーを削除するtry{    activeDocument.patterns["木の葉"].remove();}catch(e){    alert("該当する名前のパターンカラーはありません");}

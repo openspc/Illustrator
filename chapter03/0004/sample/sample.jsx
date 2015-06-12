@@ -1,0 +1,1 @@
+﻿// 最前面の（アクティブ）ドキュメントを指定するvar docObj = app.activeDocument;alert("ドキュメント名："+docObj.name);

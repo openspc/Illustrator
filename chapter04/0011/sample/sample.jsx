@@ -1,0 +1,1 @@
+﻿// 指定した名前のスウォッチカラーを削除するtry{    activeDocument.swatches["CMYK レッド"].remove();}catch(e){    alert("該当する名前のスウォッチカラーはありません");}

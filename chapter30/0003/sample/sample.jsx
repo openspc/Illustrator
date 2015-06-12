@@ -1,0 +1,1 @@
+// アクティブになっているアートボードの番号と名前を表示するvar docObj = app.activeDocument;var idx = docObj.artboards.getActiveArtboardIndex();var aName = docObj.artboards[idx].name;alert(idx + "："+aName);

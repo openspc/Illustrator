@@ -1,0 +1,1 @@
+﻿// 選択された画像をドキュメント上の絶対座標に移動させるvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    var selType = selObj[i].typename;    if ((selType == "RasterItem")|| (selType == "PlacedItem")){        selObj[i].left = 50;    // X座標        selObj[i].top = -30;    // Y座標    }}

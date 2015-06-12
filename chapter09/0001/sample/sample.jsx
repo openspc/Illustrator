@@ -1,0 +1,1 @@
+﻿// 選択されたテキストフレームに「2014」という文字が含まれるか調べるvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    var text = selObj[i].contents;	// テキストフレーム内の文字を読み出し    var result = text.match(/2014/);    if(result){        alert("文字が含まれています");    }else{        alert("文字は含まれていませんでした");    }}

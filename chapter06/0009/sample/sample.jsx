@@ -1,0 +1,1 @@
+﻿// テキストフレームの不透明度を指定するvar txtObj = activeDocument.textFrames.add();txtObj.contents = "イラストレーター自動化";txtObj.opacity = 50;	// 50%の不透明度txtObj.top = -40;　txtObj.left = 20;

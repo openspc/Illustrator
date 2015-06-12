@@ -1,0 +1,1 @@
+﻿// 選択されたオブジェクトをグループ化するvar grObj = activeDocument.groupItems.add();    // グループオブジェクトを生成するvar selObj = activeDocument.selection;  // 選択されたオブジェクトが入った配列for(var i=0; i<selObj.length; i++){    // 選択された図形をグループオブジェクトの末尾に追加する    selObj[i].move(grObj, ElementPlacement.PLACEATEND);}

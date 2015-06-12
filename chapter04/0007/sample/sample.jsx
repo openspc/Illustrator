@@ -1,0 +1,1 @@
+﻿// 選択した図形にパターンを指定するvar patColor = activeDocument.swatches["木の葉"].color;patColor.rotation = 45; // 角度は45度patColor.shearAngle = 15;   // 傾斜は15度activeDocument.selection[0].fillColor = activeDocument.swatches["木の葉"].color;

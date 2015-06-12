@@ -1,0 +1,1 @@
+﻿// 指定したプリンタで使える用紙サイズ一覧を表示するvar txt = "";var myPrinter = app.printerList[2]; // プリンタvar ps = myPrinter.printerInfo.paperSizes;  // 用紙サイズfor(var i=0; i<ps.length; i++){    var pName = ps[i].name; // 用紙の名称    var w = ps[i].paperInfo.width;  // 用紙の横幅（単位はpt）    var h = ps[i].paperInfo.height; // 用紙の縦幅（単位はpt）    txt = txt + pName+" : "+w+", "+h + "\r";}alert(txt);

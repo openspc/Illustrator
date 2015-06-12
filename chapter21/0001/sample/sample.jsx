@@ -1,0 +1,1 @@
+﻿// ドキュメント内にあるメッシュグラデーション適用図形の数を表示するvar n = activeDocument.meshItems.length;alert(n+"個のメッシュグラデーション適用図形があります");

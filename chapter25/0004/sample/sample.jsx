@@ -1,0 +1,1 @@
+﻿// ゴミ箱フォルダのパスを表示するvar cFolder = Folder.trash;if (cFolder){    var trName = cFolder.fullName    alert("ゴミ箱フォルダ："+trName);}else{    alert("Windowsでは使用できません："+cFolder);}

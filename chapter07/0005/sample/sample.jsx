@@ -1,0 +1,1 @@
+﻿// 段落スタイルを反映させるvar txtObj = activeDocument.selection[0];	// 選択されたテキストフレームtry {    var psObj = activeDocument.paragraphStyles["タイトル"];    psObj.applyTo(txtObj.paragraphs[0], true);	// 最初の段落に対して適用}catch(e){    alert("指定された段落スタイルがありません");}

@@ -1,0 +1,1 @@
+﻿// 一番上のレイヤー内にある全てのサブレイヤーを削除するvar parentLayerObj = app.activeDocument.layers[0];	// 一番上のレイヤーfor(var i=parentLayerObj.layers.length-1; i>=0; i--){    parentLayerObj.layers[i].remove();  // サブレイヤーを削除}

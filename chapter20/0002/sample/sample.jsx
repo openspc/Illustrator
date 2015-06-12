@@ -1,0 +1,1 @@
+﻿// 特定のシンボル名を持つシンボルアイテムを削除するvar symObj = activeDocument.symbolItems;    // ドキュメント上の全シンボルfor(var i=symObj.length-1; i>=0; i--){  // 大きい順から処理する    var sName = symObj[i].symbol.name;  // 配置されているシンボル名を読み出す    if (sName == "プロセス長方形"){    // シンボル名を調べる        symObj[i].remove(); // 削除する    }}

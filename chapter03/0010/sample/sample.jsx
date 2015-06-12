@@ -1,0 +1,1 @@
+﻿// ドキュメント名を表示するvar docObj = activeDocument;var docName = docObj.name;alert("ドキュメント名："+docName);

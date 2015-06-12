@@ -1,0 +1,1 @@
+﻿// 選択された画像を相対的に移動させるvar selObj = activeDocument.selection;for(var i=0; i<selObj.length; i++){    var selType = selObj[i].typename;    if ((selType == "RasterItem")|| (selType == "PlacedItem")){        selObj[i].translate(50, -30);    }}

@@ -1,0 +1,1 @@
+﻿// 最初の行の行間を指定するvar txtObj = app.activeDocument.textFrames.add();txtObj.top = -20;txtObj.left = 10;txtObj.paragraphs.add("イラストレーター");txtObj.paragraphs.add("フォトショップ");txtObj.paragraphs.add("インデザイン");txtObj.paragraphs.add("ブリッジ");txtObj.paragraphs[0].autoLeading = false;   // 行間指定時はfalseにするtxtObj.paragraphs[0].leading = 50;

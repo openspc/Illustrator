@@ -1,0 +1,1 @@
+﻿// 確認なしで全てのドキュメントを閉じるfor(var i=documents.length-1; i>=0; i--){    documents[i].close(SaveOptions.DONOTSAVECHANGES);}

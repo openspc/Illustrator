@@ -1,0 +1,1 @@
+﻿// ドキュメント内にあるシンボルアイテムを全て削除するactiveDocument.symbolItems.removeAll();
